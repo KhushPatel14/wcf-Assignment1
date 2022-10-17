@@ -20,7 +20,10 @@ namespace Assignment1
         string reverseString(string n1);
         [OperationContract]
         string joinString(string s1, string s2);
-        string sortNumber( Array[] a1);
+        [OperationContract]
+        int [] sortNumber(int [] a1);
+        [OperationContract]
+        int [] sortNumberDesc(int [] a1);
 
         
     }

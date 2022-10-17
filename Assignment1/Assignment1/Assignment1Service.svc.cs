@@ -40,9 +40,17 @@ namespace Assignment1
             return reverse;
         }
 
-        public string sortNumber( Array[] s2)
+        public int[] sortNumber(int[] a1)
         {
-            throw new NotImplementedException();
+            Array.Sort(a1);
+            return a1;
+        }
+
+        public int[] sortNumberDesc(int[] a1)
+        {
+            Array.Sort(a1);
+            Array.Reverse(a1);
+            return a1;
         }
 
         public int sumDigits(int n1)

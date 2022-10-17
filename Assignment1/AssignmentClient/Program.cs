@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Name: Khush Umesh Patel
+ * Program ID = Assignment1
+ * Email: Kpatel0500@conestogac.on.ca
+ * Created on Oct 16 2022
+ * 
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +17,7 @@ namespace AssignmentClient
     {
         static void Main(string[] args)
         {
-            Assignment1Reference.Assignment1ServiceClient client = new Assignment1Reference.Assignment1ServiceClient();
-
+            ServiceReference1.Assignment1ServiceClient client = new ServiceReference1.Assignment1ServiceClient();
 
             string choice = "";
             while (!choice.Equals("6"))
@@ -71,24 +77,59 @@ namespace AssignmentClient
                         break;
 
                     case "5":
-                        
 
-                        Console.Write("Enter numbers: ");
-
-                        int[] arr1 = new int[5];
-                        for (int i = 0; i < arr1.Length; i++)
+                        bool repeat = true;
+                        do
                         {
-                            Console.Write("number - {0} : ", i);
-                            arr1[i] = Convert.ToInt32(Console.ReadLine());
-                        }
+                            Console.Write("Select Sort Type(aesc/desc): ");
+                            string sortType = Console.ReadLine();
+                            
 
-                        Array.Sort(arr1);
-                        //Array.Reverse(arr1);
-                        Console.WriteLine("\nSorted List");
-                        for (int i = 0; i < arr1.Length; i++)
-                        {
-                            Console.WriteLine(arr1[i] + " ");
+
+                            if (sortType == "aesc")
+                            {
+
+                                Console.Write("Enter numbers: ");
+
+                                int[] arr1 = new int[5];
+                                for (int i = 0; i < arr1.Length; i++)
+                                {
+                                    Console.Write("number - {0} : ", i);
+                                    arr1[i] = Convert.ToInt32(Console.ReadLine());
+                                }
+                                int[] result3 = client.sortNumber(arr1);
+
+                                Console.WriteLine("\nSorted List");
+                                for (int i = 0; i < result3.Length; i++)
+                                {
+                                    Console.WriteLine(result3[i] + " ");
+                                }
+                            }
+                            else if (sortType == "desc")
+                            {
+                                Console.Write("Enter numbers: ");
+
+                                int[] arr1 = new int[5];
+                                for (int i = 0; i < arr1.Length; i++)
+                                {
+                                    Console.Write("number - {0} : ", i);
+                                    arr1[i] = Convert.ToInt32(Console.ReadLine());
+                                }
+                                int[] result3 = client.sortNumberDesc(arr1);
+
+                                Console.WriteLine("\nSorted List");
+                                for (int i = 0; i < result3.Length; i++)
+                                {
+                                    Console.WriteLine(result3[i] + " ");
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Wrong input");
+                                repeat = true;
+                            }
                         }
+                        while (repeat == false);
 
                         break;
                 }

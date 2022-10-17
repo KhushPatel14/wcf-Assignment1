@@ -4,3 +4,9 @@ C:\Khush_Conestoga\Level5\Distributed_Application_Development\Assignment1\wcf-as
 C:\Khush_Conestoga\Level5\Distributed_Application_Development\Assignment1\wcf-assignment1\Assignment1\AssignmentClient\obj\Debug\AssignmentClient.csproj.CoreCompileInputs.cache
 C:\Khush_Conestoga\Level5\Distributed_Application_Development\Assignment1\wcf-assignment1\Assignment1\AssignmentClient\obj\Debug\AssignmentClient.exe
 C:\Khush_Conestoga\Level5\Distributed_Application_Development\Assignment1\wcf-assignment1\Assignment1\AssignmentClient\obj\Debug\AssignmentClient.pdb
+C:\Khush_Conestoga\Level5\Distributed_Application_Development\Assignment1\wcf-assignment1\wcf-Assignment1\Assignment1\AssignmentClient\obj\Debug\AssignmentClient.csproj.CoreCompileInputs.cache
+C:\Khush_Conestoga\Level5\Distributed_Application_Development\Assignment1\wcf-assignment1\wcf-Assignment1\Assignment1\AssignmentClient\bin\Debug\AssignmentClient.exe.config
+C:\Khush_Conestoga\Level5\Distributed_Application_Development\Assignment1\wcf-assignment1\wcf-Assignment1\Assignment1\AssignmentClient\bin\Debug\AssignmentClient.exe
+C:\Khush_Conestoga\Level5\Distributed_Application_Development\Assignment1\wcf-assignment1\wcf-Assignment1\Assignment1\AssignmentClient\bin\Debug\AssignmentClient.pdb
+C:\Khush_Conestoga\Level5\Distributed_Application_Development\Assignment1\wcf-assignment1\wcf-Assignment1\Assignment1\AssignmentClient\obj\Debug\AssignmentClient.exe
+C:\Khush_Conestoga\Level5\Distributed_Application_Development\Assignment1\wcf-assignment1\wcf-Assignment1\Assignment1\AssignmentClient\obj\Debug\AssignmentClient.pdb
